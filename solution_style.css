@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather&display=swap');
+
+  /* color: #CCD8DA; */
+  /* color: #E5DAC3; */
+
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Merriweather', serif; */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  /* font-family: 'EB Garamond', serif; */
+  font-family: 'Merriweather', serif;
+  /* background-color: #E5DAC3; */
+  background-color: #eee2c9;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.menuContainer {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.menuContainer a, .menuContainer a:visited {
+  color: black;
+  font-size: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.menuContainer a:hover {
+  font-weight: bold;
+}
+
+.insetContent {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+.insetContent p {
+  font-size: 21px;
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 50px;
+  font-family: 'EB Garamond', serif;
+}
+
+.footer {
+  display: flex;
+  color: grey;
+  height: 100px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-right: 100px;
+  margin-bottom: 10px;
+  border-top: 1.5px solid;
+}
+
+.footer p {
+  font-size: 30px;
+  font-family: 'EB Garamond', serif;
+}
