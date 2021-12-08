@@ -42,7 +42,8 @@ body {
 }
 
 .menuContainer a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
+  text-shadow: 1px 1px 3px #000000;
 }
 
 .insetContent {
@@ -64,8 +65,10 @@ h1 {
   font-family: 'EB Garamond', serif;
 }
 
-.twoColumn {
+.twoColumn1, .twoColumn2 {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .textColumn, .imageColumn {
@@ -78,20 +81,46 @@ h1 {
   /* background-color: white; */
 }
 
-.textColumn {
-  padding-left: 20px;
+.twoColumn1 .textColumn {
   padding-right: 20px;
+}
+
+.twoColumn2 .textColumn {
+  padding-left: 20px;
+}
+
+.twoColumn1 .imageColumn {
+  /* padding-right: 0px; */
+  padding-left: 10px;
+}
+
+.twoColumn2 .imageColumn {
+  padding-left: 0px;
+  padding-right: 10px;
 }
 
 .imageColumn {
   margin-right: 0px;
-  padding-right: 0px;
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .columnImage {
   width: 90%;
+  /* height: 80%; */
+  /* margin-bottom: 40px; */
+  box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%) !important;
 }
 
+#video {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#video .columnImage {
+  width: 100%;
+}
 
 .footer {
   display: flex;
