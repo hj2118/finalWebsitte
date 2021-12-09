@@ -47,11 +47,22 @@ body {
   text-shadow: 1px 1px 3px #000000;
 }
 
-.insetContent {
-  margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 30px;
+@media only screen and (min-width : 480px) {
+  .insetContent {
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width : 992px) {
+  .insetContent {
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+  }
 }
 
 .insetContent p {
